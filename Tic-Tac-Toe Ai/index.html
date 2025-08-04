@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Tic Tac Toe</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Tic Tac Toe Challenge</h1>
+  <div class="status" id="status">Your move! Pick a square</div>
+
+  <div class="grid" id="board"></div>
+
+  <div class="buttons">
+    <button class="btn btn-primary" onclick="startNewGame()">Restart</button>
+    <button class="btn btn-secondary" onclick="switchMode()" id="modeBtn">Hard Mode</button>
+  </div>
+
+  <div class="score-panel">
+    <div class="score-item">
+      <span class="score-number" id="humanScore">0</span>
+      <span class="score-label">You</span>
+    </div>
+    <div class="score-item">
+      <span class="score-number" id="drawScore">0</span>
+      <span class="score-label">Draws</span>
+    </div>
+    <div class="score-item">
+      <span class="score-number" id="aiScore">0</span>
+      <span class="score-label">AI</span>
+    </div>
+  </div>
+
+  <div class="ai-info" id="aiInfo">
+    AI uses minimax algorithm to play optimally
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "tic-tac-toe-ai",
+  "version": "1.0.0",
+  "description": "Unbeatable Tic-Tac-Toe game with Minimax AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=3000",
+    "format": "prettier --write .",
+    "lint": "eslint script.js"
+  },
+  "keywords": ["tic-tac-toe", "ai", "minimax", "game"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  }
+}
