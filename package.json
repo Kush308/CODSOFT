@@ -1,0 +1,12 @@
+{
+  "name": "ai-image-captioning-system",
+  "version": "1.0.0",
+  "description": "AI Image Captioning System demo with live reload",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --open=./index.html --watch=./"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
